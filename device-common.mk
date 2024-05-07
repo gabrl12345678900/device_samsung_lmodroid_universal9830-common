@@ -303,7 +303,7 @@ PRODUCT_PACKAGES += \
     android.hardware.radio.network-V1-ndk.vendor:64 \
     android.hardware.radio.sim-V1-ndk.vendor:64 \
     android.hardware.radio.voice-V1-ndk.vendor:64 \
-    cass \
+    cass.rc \
     init.baseband.rc \
     init.vendor.rilcommon.rc \
     libdsms_vendor:64 \
@@ -377,6 +377,10 @@ PRODUCT_PACKAGES += \
     android.hardware.usb-service.samsung \
     android.hardware.usb.gadget-service.samsung \
     init.exynos990.usb.rc
+
+# Vaultkepper
+PRODUCT_PACKAGES += \
+    vaultkeeper_common.rc
 
 # Vibrator
 PRODUCT_PACKAGES += \
