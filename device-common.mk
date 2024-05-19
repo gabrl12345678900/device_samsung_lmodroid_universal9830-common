@@ -273,6 +273,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     vendor.lineage.powershare@1.0-service.samsung
 
+# Proca
+PRODUCT_PACKAGES += \
+    pa_daemon_teegris.rc
+
 # Ramdisk
 PRODUCT_PACKAGES += \
     fstab.exynos990 \
