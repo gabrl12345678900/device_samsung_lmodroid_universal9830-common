@@ -98,6 +98,7 @@
                 "800000",
                 "572000",
                 "377000",
+                "260000",
                 "0"
             ],
             "ResetOnInit": true
@@ -119,41 +120,6 @@
             "Values": [
                 "2730000",
                 "0"
-            ],
-            "DefaultIndex": 0,
-            "ResetOnInit": true
-        },
-        {
-            "Name": "CPUMinFreq",
-            "Path": "/sys/power/cpufreq_min_limit",
-            "Values": [
-                "2730000",
-                "0"
-            ],
-            "ResetOnInit": true
-        },
-        {
-            "Name": "LPMDisable",
-            "Path": "/sys/power/cstate_control",
-            "Values": [
-                "0",
-                "1"
-            ],
-            "DefaultIndex": 0,
-            "ResetOnInit": true
-        },
-        {
-            "Name": "CoreNumMax",
-            "Path": "/sys/power/cpuhp/set_online_cpu",
-            "Values": [
-                "0xff",
-                "0x3f",
-                "0x0f"
-            ],
-            "Comments": [
-                "0xff => 11111111",
-                "0x3f => 00111111",
-                "0x0f => 00001111"
             ],
             "DefaultIndex": 0,
             "ResetOnInit": true
@@ -259,6 +225,12 @@
             "Node": "EmsTuneReqMode",
             "Duration": 0,
             "Value": "0"
+        },
+        {
+            "PowerHint": "INTERACTION",
+            "Node": "GPUMinFreq",
+            "Duration": 0,
+            "Value": "260000"
         },
         {
             "PowerHint": "LAUNCH",
