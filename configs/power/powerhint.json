@@ -227,12 +227,6 @@
             "Value": "0"
         },
         {
-            "PowerHint": "INTERACTION",
-            "Node": "GPUMinFreq",
-            "Duration": 0,
-            "Value": "260000"
-        },
-        {
             "PowerHint": "LAUNCH",
             "Node": "CPULittleClusterMinFreq",
             "Duration": 3000,
@@ -465,6 +459,12 @@
             "Node": "EmsTuneReqMode",
             "Duration": 0,
             "Value": "6"
+        },
+        {
+            "PowerHint": "INTERACTIVE",
+            "Node": "GPUMinFreq",
+            "Duration": 0,
+            "Value": "260000"
         },
         {
             "PowerHint": "INTERACTIVE",
