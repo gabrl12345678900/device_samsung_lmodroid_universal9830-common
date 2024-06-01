@@ -115,8 +115,6 @@ vendor/etc/sensor/lhd.conf
 -vendor/lib64/hw/vulkan.mali.so
 
 # Hotword Enrollment
--product/priv-app/HotwordEnrollmentOKGoogleEx3CORTEXM4/HotwordEnrollmentOKGoogleEx3CORTEXM4.apk
--product/priv-app/HotwordEnrollmentXGoogleEx3CORTEXM4/HotwordEnrollmentXGoogleEx3CORTEXM4.apk
 system/system_ext/framework/com.android.hotwordenrollment.common.util.jar:system_ext/framework/com.android.hotwordenrollment.common.util.jar
 system/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml
 
@@ -250,14 +248,12 @@ vendor/etc/libse-gto-hal.conf
 vendor/tee/00000000-0000-0000-0000-000000010081
 vendor/tee/00000000-0000-0000-0000-000000020081
 vendor/tee/00000000-0000-0000-0000-000048444350
-vendor/tee/00000000-0000-0000-0000-0050524f4341
 vendor/tee/00000000-0000-0000-0000-00575644524d
 vendor/tee/00000000-0000-0000-0000-53454d655345
 vendor/tee/00000000-0000-0000-0000-5354494d4552
 vendor/tee/00000000-0000-0000-0000-564c544b5052
 vendor/tee/00000000-0000-0000-0000-64756c444152
 vendor/tee/00000000-0000-0000-0000-656e676d6f64
-vendor/tee/00000000-0000-0000-0000-657365636f6d
 vendor/tee/00000000-0000-0000-0000-6d73745f5441
 vendor/tee/driver/00000000-0000-0000-0000-494363447256
 vendor/tee/driver/00000000-0000-0000-0000-4d53546d7374
