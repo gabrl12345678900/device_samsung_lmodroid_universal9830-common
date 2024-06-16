@@ -52,6 +52,7 @@ TARGET_BOOTANIMATION_TEXTURE_CACHE := true
 # Camera
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider-service.samsung \
+    libcamera_shim \
     libGrallocMapperCamera \
     libhwjpeg \
     libsensorndkbridge \
