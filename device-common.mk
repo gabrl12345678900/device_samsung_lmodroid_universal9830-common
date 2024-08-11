@@ -54,7 +54,8 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider-service.samsung \
     libGrallocMapperCamera \
     libhwjpeg \
-    libsensorndkbridge
+    libsensorndkbridge \
+    libutilscallstack.vendor
 
 # Cgroup and task_profiles
 PRODUCT_COPY_FILES += \
@@ -171,7 +172,9 @@ PRODUCT_PACKAGES += \
 # Neuralnetworks
 PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks@1.3.vendor \
-    libtextclassifier_hash.vendor
+    android.hidl.allocator@1.0.vendor \
+    libtextclassifier_hash.vendor \
+    libhidlmemory.vendor
 
 # NFC
 PRODUCT_PACKAGES += \
