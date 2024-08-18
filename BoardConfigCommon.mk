@@ -34,27 +34,13 @@ TARGET_2ND_CPU_VARIANT_RUNTIME := cortex-a55
 BOARD_LOW_LATENCY_CAPTURE_DURATION := 20
 BOARD_USB_PLAYBACK_DURATION := 5
 BOARD_USE_MMAP_HW_VOLUME_CONTROL := true
-BOARD_USE_QUAD_MIC := true
 BOARD_USE_SEC_AUDIO_DYNAMIC_NREC := true
 BOARD_USE_SEC_AUDIO_PARAM_UPDATE := false
 BOARD_USE_SEC_AUDIO_RESAMPLER := true
 BOARD_USE_SEC_AUDIO_SAMSUNGRECORD := true
 BOARD_USE_SEC_AUDIO_SOUND_TRIGGER_ENABLED := true
-# BOARD_USE_SEC_AUDIO_SUPPORT_GAMECHAT_SPK_AEC := true
 BOARD_USE_SEC_AUDIO_SUPPORT_LISTENBACK_DSPEFFECT := true
 BOARD_USE_USB_OFFLOAD := true
-
-# Camera
-$(call soong_config_set,samsungCameraVars,usage_64bit,true)
-SOONG_CONFIG_NAMESPACES += samsungCameraVars
-SOONG_CONFIG_samsungCameraVars += extra_ids
-ifeq ($(TARGET_DEVICE),r8s)
-# ID=50 is telephoto
-SOONG_CONFIG_samsungCameraVars_extra_ids := 50
-else
-# ID=52 is telephoto
-SOONG_CONFIG_samsungCameraVars_extra_ids := 52
-endif
 
 # Compatibility Matrix
 DEVICE_MATRIX_FILE := $(COMMON_PATH)/compatibility_matrix.xml
