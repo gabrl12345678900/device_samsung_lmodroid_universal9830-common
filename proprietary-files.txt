@@ -81,8 +81,8 @@ vendor/firmware/volumemonitor.bin
 # Exynos Multi-Format Codec (MFC) Firmware
 vendor/firmware/mfc_fw.bin
 
-# Euicc - from oriole-user 14 UP1A.231005.007
-system/priv-app/EuiccService/EuiccService.apk:product/priv-app/EuiccService/EuiccService.apk;PRESIGNED|4c5b85fd376a0cdfd7de8c8a01e52dd98b1a910d
+# Euicc - from raven-user 14 UP1A.231005.007
+-product/priv-app/EuiccGoogle/EuiccGoogle.apk;PRESIGNED|a1a8643d4c7905f8c69e4f9602813053628705bf
 
 # Fingerprint
 -vendor/lib64/libbauthserver.so
